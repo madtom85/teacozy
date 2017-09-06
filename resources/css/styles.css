@@ -1,0 +1,62 @@
+html{
+	background-color: #000;
+	font-family: helvetica;
+	color: seashell;
+	font-size: 22px;
+	opacity: 0.9;
+}
+
+#wrapper{
+}
+
+.logo-item img{
+	height: 50px;
+}
+
+.logo-container{
+	display: inline-flex;
+}
+
+.nav-menu ul{
+	display: inline-flex;
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
+.nav-menu li{
+	margin: 10px;
+	list-style: none;
+}
+
+.nav-menu a{
+	text-decoration: underline;
+	color: seashell;
+}
+
+.border-bottom{
+	border-bottom: 1px solid seashell;
+	margin-top: 19px;
+}
+
+body{
+	font-family: helvetica;
+	color: seashell;
+	font-size: 22px;
+}
+
+#content-container{
+	display: flex;
+	justify-content: center;
+	border: 1px solid seashell;
+}
+
+.mission{
+	align-items: center;
+	padding: 0 100px;
+	background-color: #000
+}
+
+.mission-type{
+	text-align: center;
+}
