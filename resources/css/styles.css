@@ -1,31 +1,32 @@
 html{
-	background-color: #000;
 	font-family: helvetica;
-	color: seashell;
 	font-size: 22px;
+	color: seashell;
 	opacity: 0.9;
+	background-color: #000;	
 }
 
-#wrapper{
+#header{
+	width: 100%;
+	height: 69px;
+	position: fixed;
+	border-bottom: 1px solid seashell;
 }
 
 .logo-item img{
+	margin-left: 10px;
 	height: 50px;
-}
-
-.logo-container{
-	display: inline-flex;
 }
 
 .nav-menu ul{
 	display: inline-flex;
-	position: absolute;
-	top: 0;
-	right: 10px;
+	position: relative;
+	bottom: 60px;
+	left: 1250px;
 }
 
 .nav-menu li{
-	margin: 10px;
+	margin: 0 5px 0 20px;
 	list-style: none;
 }
 
@@ -34,29 +35,19 @@ html{
 	color: seashell;
 }
 
-.border-bottom{
-	border-bottom: 1px solid seashell;
-	margin-top: 19px;
-}
-
-body{
-	font-family: helvetica;
-	color: seashell;
-	font-size: 22px;
-}
-
-#content-container{
+#mission{
 	display: flex;
 	justify-content: center;
 	border: 1px solid seashell;
+	position: relative;
+	top: 69px;
 }
 
-.mission{
-	align-items: center;
+.mission-content{
 	padding: 0 100px;
-	background-color: #000
+	background-color: black;
 }
 
-.mission-type{
+.mission-content h2{
 	text-align: center;
 }

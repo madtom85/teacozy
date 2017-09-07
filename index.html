@@ -5,44 +5,39 @@
 	<title>Tea Cozy</title>
 </head>
 <style>
-	.background-image{
-		background-image: url(./resources/images/background.jpg);
-		background-repeat: no-repeat;
-		position: absolute;
-		height: 700px;
-		width: 1200px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+	.mission-background-image{
+	background-image: url('./resources/images/background.jpg');
+	height: 700px;
+	width: 1200px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 </style>
 <body>
 	<div id='wrapper'>
-		<div class='logo-container'>
+		<div id='header'>
 			<div class='logo-item'>
-				<img src='./resources/images/tea-cozy-logo.png'>
+				<img src='./resources/images/tea-cozy-logo.png' />
+			</div>
+			<div class='nav-menu'>
+				<nav>
+					<ul>
+						<li> <a href='#mission'>Mission</a> </li>
+						<li> <a href='#featured-tea'>Featured Tea</a> </li>
+						<li> <a href='#locations'>Locations</a> </li>
+					</ul>
+				</nav>
 			</div>
 		</div>
-		<div class='nav-menu'>
-			<nav>
-				<ul>
-					<li> <a href='#mission'>Mission</a> </li>
-					<li> <a href='#featured tea'>Featured Tea</a> </li>
-					<li> <a href='#Locations'>Locations</a> </li>
-				</ul>
-			</nav>
-		</div>
-		<div class='border-bottom'></div>
 
-		<div id='content-container'>
-			<div class='background-image'>
-				<div class='mission'>
-					<h2 class='mission-type'>Our Mission</h2>
-					<h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
-				</div>
+		<div id='mission'>
+			<div class='mission-background-image'>
+				<div class='mission-content'>
+				<h2>Our Mission</h2>
+				<h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
 			</div>
 		</div>
-	</div>
-
 </body>
 </html>
