@@ -3,7 +3,14 @@ html{
 	font-size: 22px;
 	color: seashell;
 	opacity: 0.9;
-	background-color: #000;	
+	background-color: #000;
+	height: 2280px;	
+}
+
+#wrapper{
+	display: flex;
+	justify-content: center;
+	height: 2280px;
 }
 
 #header{
@@ -11,6 +18,7 @@ html{
 	height: 69px;
 	position: fixed;
 	border-bottom: 1px solid seashell;
+	z-index: 5;
 }
 
 .logo-item img{
@@ -38,9 +46,9 @@ html{
 #mission{
 	display: flex;
 	justify-content: center;
-	border: 1px solid seashell;
 	position: relative;
 	top: 69px;
+	width: 1200px;
 }
 
 .mission-content{
@@ -50,4 +58,139 @@ html{
 
 .mission-content h2{
 	text-align: center;
+}
+
+#featured-tea{
+	position: absolute;
+	top: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1200px;
+}
+
+.tea-description-container{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.tea-images-container{
+	display: flex;
+	flex-direction: row;
+	width: 1080px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.tea-images img{
+	height: 200px;
+	width: 300px;
+}
+
+.top-left-tea{
+	margin-right: 20px;
+}
+
+.top-right-tea{
+	margin-left: 20px;
+}
+
+.bottom-left-tea{
+	margin-right: 10px;
+}
+
+.bottom-right-tea{
+	margin-left: 10px;
+}
+
+.tea-images p{
+	text-align: center;
+	margin-top: 10px;
+}
+
+#locations{
+	width: 1200px;
+	height: 700px;
+	position: absolute;
+	top: 1520px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.locations-header h2{
+	text-align: center;
+	position: relative;
+	top: 40px;
+	padding-bottom: 15px;
+}
+
+.locations-box{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+	top:10px;
+}
+
+.locations-box h3{
+	text-align: center;
+	position: relative;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.locations-box p{
+	margin-top: 0;
+}
+
+.locations-one,
+.locations-two,
+.locations-three{
+	opacity: 1;
+	background-color: #000;
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.locations-one{
+	margin-right: 40px;
+}
+
+.locations-three{
+	margin-left: 40px;
+}
+
+.locations-street{
+	margin-top: 30px;
+}
+
+.locations-room{	
+	margin-top: 50px;
+	text-align: center;
+}
+
+.locations-city{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.contact{
+	display: flex;
+	justify-content: center;
+}
+
+.contact-items h5{
+	text-align: center;
+}
+
+.footer{
+	position: absolute;
+	top: 2270px;
+	left: 20px;
 }
